@@ -1,0 +1,31 @@
+[GeneralInfo]
+Version=2021.9.0-6-g14ef4a71
+Device ID=2101_0237_A
+Date=2022-07-22 10:59:31.881345
+Sources=8
+Detectors=15
+Sampling rate=10.172526041666666
+Amplitude details=  9.3%,   2.5%,  10.0%, 100.0%, 100.0%, 100.0%, 100.0%, 100.0%
+triggers=['1 #1f77b4 #aec7e8', '2 #ff7f0e #ffbb78', '3 #2ca02c #98df8a', '4 #d62728 #ff9896', '5 #9467bd #c5b0d5', '6 #8c564b #c49c94', '7 #e377c2 #f7b6d2', '8 #7f7f7f #d3d3d3']
+
+[ExperimentNotes]
+experiment_name=
+experiment_subject=
+experiment_subject_age=
+experiment_subject_gender=
+experiment_subject_contact_info=
+experiment_remarks=
+
+[DataStructure]
+Channel Mask="# 
+1     0     0     1     0     0     0     1     0     0     0     0     0     0     0
+1     1     1     0     0     0     0     0     1     0     0     0     0     0     0
+0     1     0     0     0     0     1     0     0     1     0     0     0     0     0
+0     1     1     0     0     1     1     0     0     0     1     0     0     0     0
+1     0     1     1     1     0     0     0     0     0     0     1     0     0     0
+0     0     0     1     1     0     0     0     0     0     0     0     1     0     0
+0     0     1     0     1     1     0     0     0     0     0     0     0     1     0
+0     0     0     0     0     1     1     0     0     0     0     0     0     0     1
+#"
+Channel indices=
+0-0, 0-3, 0-7, 1-0, 1-1, 1-2, 1-8, 2-1, 2-6, 2-9, 3-1, 3-2, 3-5, 3-6, 3-10, 4-0, 4-2, 4-3, 4-4, 4-11, 5-3, 5-4, 5-12, 6-2, 6-4, 6-5, 6-13, 7-5, 7-6, 7-14

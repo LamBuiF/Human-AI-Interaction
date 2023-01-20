@@ -1,0 +1,39 @@
+﻿txtStim,stimFile,AI_Resp,ExplanationFile,,AI response accurate?,,Authentic?
+Question 1:,stim/Tp_D_CNN_S_B_sec00023_sec00022_00044.tif,"The AI system has determined that the above image is not authentic. 
+Do you accept or deny this claim?",stim/image_based_Tp_D_CNN_S_B_sec00023_sec00022_00044.tif.png,,,1,0
+Question 2:,stim/Au_art_30124.jpg,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Au_art_30124.jpg,,,1,1
+Question 3:,stim/Au_cha_00098.jpg,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Au_cha_00098.jpg,,,1,1
+Question 4:,stim/Au_cha_30078.jpg,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Au_cha_30078.jpg,,,1,1
+Question 5:,stim/Tp_D_CNN_S_B_txt00055_txt00047_11328.jpg.png,"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?",stim/image_based_Tp_D_CNN_S_B_txt00055_txt00047_11328.jpg.png,,,1,0
+Question 6:,stim/Tp_D_CNN_S_N_ani10198_ani10197_12407.jpg.png,"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?",stim/image_based_Tp_D_CNN_S_N_ani10198_ani10197_12407.jpg.png,,,1,0
+Question 7:,stim/Tp_D_CRD_S_N_ind00029_ind00088_00444.tif.png,"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?",stim/image_based_Tp_D_CRD_S_N_ind00029_ind00088_00444.tif.png,,,1,0
+Question 8:,stim/Au_cha_30543.jpg,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Au_cha_30543.jpg,,,1,1
+Question 9:,stim/Tp_D_CRD_S_N_sec00003_sec00007_00023.tif,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Tp_D_CRD_S_N_sec00003_sec00007_00023.tif,,,0,0
+Question 10:,stim/Au_ind_00022.jpg,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Au_ind_00022.jpg,,,1,1
+Question 11:,stim/Au_art_30396.jpg,"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?",stim/image_based_Au_art_30396.jpg.png,,,0,1
+Question 12:,stim/Tp_D_CRN_M_N_cha00035_cha00040_11732.jpg,"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?",stim/image_based_Tp_D_CRN_M_N_cha00035_cha00040_11732.jpg.png,,,1,0
+Question 13:,stim/Tp_D_CRN_M_N_cha00094_cha00086_11501.jpg,"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?",stim/image_based_Tp_D_CRN_M_N_cha00094_cha00086_11501.jpg.png,,,1,0
+Question 14:,stim/Au_art_20034.jpg,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Au_art_20034.jpg,,,1,1
+Question 15:,stim/Tp_D_CRN_M_N_cha10166_nat10123_12273.jpg,"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?",stim/image_based_Tp_D_CRN_M_N_cha10166_nat10123_12273.jpg.png,,,1,0
+Question 16:,stim/Tp_D_CRN_M_N_nat00032_art00025_11427.jpg,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Tp_D_CRN_M_N_nat00032_art00025_11427.jpg,,,0,0
+Question 17:,stim/Au_cha_30348.jpg,"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?",stim/image_based_Au_cha_30348.jpg.png,,,0,1
+Question 18:,stim/Au_nat_10124.jpg,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Au_nat_10124.jpg,,,1,1
+Question 19:,stim/Au_nat_10142.bmp,"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?",stim/Au_nat_10142.bmp,,,1,1

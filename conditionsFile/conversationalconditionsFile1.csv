@@ -1,0 +1,37 @@
+txtStim	stimFile	AI_Resp	ExplanationFile							Accuracy of AI response	Image authentic?
+Question 1:	stim/Tp_D_CNN_M_N_ani00023_ani00024_10205.tif	"The AI system has determined that the above image is not authentic. 
+Do you accept or deny this claim?"	stim/conversational_Tp_D_CNN_M_N_ani00023_ani00024_10205.tif.png							0	0
+Question 2:	stim/Tp_D_CNN_S_N_art00007_art00008_01197.tif	"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?"	stim/conversational_Tp_D_CNN_S_N_art00007_art00008_01197.tif.png							1	0
+Question 3:	stim/Au_pla_20034.jpg	"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?"	stim/conversational_Au_pla_20034.jpg.png							0	1
+Question 4:	stim/Tp_D_CNN_M_B_nat00056_nat00099_11105.jpg	"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?"	stim/conversational_Tp_D_CNN_M_B_nat00056_nat00099_11105.jpg.png							0	0
+Question 5:	stim/Au_ani_10178.jpg.png	"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?"	stim/conversational_Au_ani_10178.jpg.png							1	1
+Question 6:	stim/Tp_D_CNN_S_N_nat00095_ani00017_10219.tif	"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?"	stim/conversational_Tp_D_CNN_S_N_nat00095_ani00017_10219.tif.png							1	0
+Question 7: 	stim/Au_nat_30517.jpg	"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?"	stim/conversational_Au_nat_30517.jpg.png							0	1
+Question 8:	stim/Tp_D_CRD_M_N_nat00048_nat00049_11067.jpg	"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?"	stim/conversational_Tp_D_CRD_M_N_nat00048_nat00049_11067.jpg.png							1	0
+Question 9:	stim/Au_arc_30794.jpg	"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?"	stim/conversational_Au_arc_30794.jpg.png							1	1
+Question 10:	stim/Au_nat_30352.jpg	"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?"	stim/conversational_Au_nat_30352.jpg.png							0	1
+Question 12:	stim/Au_arc_30827.jpg.png	"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?"	stim/conversational_Au_arc_30827.jpg.png							1	1
+Question 13:	stim/Au_art_10012.jpg	"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?"	stim/conversational_Au_art_10012.jpg.png							1	1
+Question 14:	stim/Tp_D_CRN_M_B_nat10165_nat10164_12100.jpg	"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?"	stim/conversational_Tp_D_CRN_M_B_nat10165_nat10164_12100.jpg.png							1	0
+Question 15:	stim/Tp_D_CRN_M_N_art10115_cha00086_11526.jpg	"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?"	stim/conversational_Tp_D_CRN_M_N_art10115_cha00086_11526.jpg.png							0	0
+Question 16:	stim/Tp_D_CRN_M_N_nat10154_nat10138_12076.jpg	"The AI system has determined that the above image is not authentic.
+Do you accept or deny this claim?"	stim/conversational_Tp_D_CRN_M_N_nat10154_nat10138_12076.jpg.png							1	0
+Question 17: 	stim/Au_art_20005.jpg	"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?"	stim/conversational_Au_art_20005.jpg.png							1	1
+Question 18:	stim/Au_art_20034.jpg.png	"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?"	stim/conversational_Au_art_20034.jpg.png							1	1
+Question 19:	stim/Tp_D_CRN_M_N_cha10137_art00021_12210.jpg	"The AI system has determined that the above image is authentic.
+Do you accept or deny this claim?"	stim/conversational_Tp_D_CRN_M_N_cha10137_art00021_12210.jpg.png							0	0

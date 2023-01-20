@@ -1,0 +1,31 @@
+[GeneralInfo]
+Version=2021.9.0-6-g14ef4a71
+Device ID=2101_0237_A
+Date=2022-07-28 18:16:01.439802
+Sources=8
+Detectors=15
+Sampling rate=10.172526041666666
+Amplitude details= 14.5%,   9.8%,  16.9%,  10.9%,  14.4%,  15.9%, 100.0%,  30.8%
+triggers=[]
+
+[ExperimentNotes]
+experiment_name=
+experiment_subject=
+experiment_subject_age=
+experiment_subject_gender=
+experiment_subject_contact_info=
+experiment_remarks=
+
+[DataStructure]
+Channel Mask="# 
+1     0     0     1     0     0     0     1     0     0     0     0     0     0     0
+1     1     1     0     0     0     0     0     1     0     0     0     0     0     0
+0     1     0     0     0     0     1     0     0     1     0     0     0     0     0
+1     0     1     1     0     0     0     0     0     0     1     0     0     0     0
+0     1     1     0     0     0     1     0     0     0     0     1     0     0     0
+0     0     0     0     0     1     1     0     0     0     0     0     1     0     0
+0     0     1     0     1     1     0     0     0     0     0     0     0     1     0
+0     0     0     1     1     0     0     0     0     0     0     0     0     0     1
+#"
+Channel indices=
+0-0, 0-3, 0-7, 1-0, 1-1, 1-2, 1-8, 2-1, 2-6, 2-9, 3-0, 3-2, 3-3, 3-10, 4-1, 4-2, 4-6, 4-11, 5-5, 5-6, 5-12, 6-2, 6-4, 6-5, 6-13, 7-3, 7-4, 7-14
