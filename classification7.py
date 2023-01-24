@@ -14,13 +14,27 @@ subjectslist = [1, 2, 3, 4, 5, 6, 7]
 cwd = os.getcwd()
 
 for i in subjectslist:
-    name = cwd + '\\classificationdata4_' + str(i).zfill(3) + '.csv'
-    df = pd.read_csv(name)
 
-    X = df[AIresponse]
-    y = df['response']
+    adf = pd.DataFrame(data={})
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y , test_size = 0.2, random_state = 0)
+    for j in subjectslist:
+        if j != i:
+            name = cwd + '\\classificationdataZ_' + str(j).zfill(3) + '.csv'
+            df = pd.read_csv(name)
+            adf = pd.concat([adf, df])
+    
+    mname = cwd + '\\classificationdataZ_' + str(i).zfill(3) + '.csv'
+    mdf = pd.read_csv(mname)
+
+    X_train = adf[AIresponse]
+    y_train = adf['response']
+    X_test = mdf[AIresponse]
+    y_test = mdf['response']
+
+    # X = df[AIresponse]
+    # y = df['response']
+
+    # X_train, X_test, y_train, y_test = train_test_split(X, y , test_size = 0.2, random_state = 0)
 
     # print(X_train)
     # print(X_test)
@@ -88,4 +102,4 @@ for i in subjectslist:
     df_model['Recall'] = recall.values()
     df_model['AUC'] = auc_scores.values()
 
-    df_model.to_csv('classfication4.1_' + str(i).zfill(3) + '.csv', encoding='utf-8', index=False)
+    df_model.to_csv('classficationAllbut_' + str(i).zfill(3) + '.csv', encoding='utf-8', index=False)
