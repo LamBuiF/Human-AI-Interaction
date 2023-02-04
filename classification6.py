@@ -5,7 +5,8 @@ import numpy as np
 # from sklearn import metrics
 from sklearn.metrics import roc_auc_score
 
-testdatalist = ['EA', 'EL', 'PI', 'PR', 'PG', 'TH', 'AX', 'AY', 'AZ', 'GX', 'GY', 'GZ', 'MX', 'MY', 'MZ', 'SA', 'SR', 'SF', 'HR', 'BI', 'left eye 1', 'left eye 2', 'right eye 1', 'right eye 2']
+testdatalist = ['EA', 'EL', 'PI', 'PR', 'PG', 'TH', 'AX', 'AY', 'AZ', 'GX', 'GY', 'GZ', 'MX', 'MY', 'MZ', 'SA', 'SR', 'SF', 'HR', 'BI']
+eyesdata = ['left eye 1', 'left eye 2', 'right eye 1', 'right eye 2']
 AIresponse = ['Accuracy of AI response']
 
 subjectslist = [1, 2, 3, 4, 5, 6, 7]
@@ -14,10 +15,10 @@ subjectslist = [1, 2, 3, 4, 5, 6, 7]
 cwd = os.getcwd()
 
 for i in subjectslist:
-    name = cwd + '\\classificationdata4_' + str(i).zfill(3) + '.csv'
+    name = cwd + '\\classificationdata3_' + str(i).zfill(3) + '.csv'
     df = pd.read_csv(name)
 
-    X = df[AIresponse]
+    X = df[testdatalist]
     y = df['response']
 
     X_train, X_test, y_train, y_test = train_test_split(X, y , test_size = 0.2, random_state = 0)
@@ -88,4 +89,4 @@ for i in subjectslist:
     df_model['Recall'] = recall.values()
     df_model['AUC'] = auc_scores.values()
 
-    df_model.to_csv('classfication4.1_' + str(i).zfill(3) + '.csv', encoding='utf-8', index=False)
+    df_model.to_csv('classification4.4_' + str(i).zfill(3) + '.csv', encoding='utf-8', index=False)
