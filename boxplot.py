@@ -9,7 +9,7 @@ measureddatalist = ['EA', 'EL', 'PI', 'PR', 'PG', 'TH', 'AX', 'AY', 'AZ', 'GX', 
 # measureddatalist = ['EA']
 # No ER, T0, H0
 
-subjectslist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+subjectslist = [1, 2, 3, 4, 5, 6, 7]
 # subjectslist = [3]
 
 cwd = os.getcwd()
@@ -56,14 +56,14 @@ for i in subjectslist:
                         trimmedlist = np.append(trimmedlist, datacolumn[k])
                 trimmeddata[pos] = trimmedlist
             
-        fig = plt.figure(figsize =(10, 7))
+        fig = plt.figure(figsize = (10, 7))
         ax = fig.add_subplot(111)
         bp = ax.boxplot(trimmeddata, patch_artist = True, notch ='True', vert = 1)
         ax.set_xticklabels(qlist)
-        ax.set_xlabel('qlistdupe Type')
+        ax.set_xlabel('Question Type')
         ax.set_ylabel(dataname)
         # plt.show()
-        plt.title('Box plot for ' + dataname + ' measurements of each type of qlistdupe of subject ' + str(i).zfill(3))
+        plt.title('Box plot for ' + dataname + ' measurements of each type of question of subject ' + str(i).zfill(3))
 
         plt.savefig(os.path.join(cwd + '\IMGFinal', 'boxplot' + str(i).zfill(3) + dataname.replace(' ', '_') + ".jpg"))
         plt.close()

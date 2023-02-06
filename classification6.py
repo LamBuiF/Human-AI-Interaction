@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import os
 import numpy as np
+import xgboost as xgb
 # from sklearn import metrics
 from sklearn.metrics import roc_auc_score
 
@@ -15,7 +16,7 @@ subjectslist = [1, 2, 3, 4, 5, 6, 7]
 cwd = os.getcwd()
 
 for i in subjectslist:
-    name = cwd + '\\classificationdata3_' + str(i).zfill(3) + '.csv'
+    name = cwd + '\\classificationdata4_' + str(i).zfill(3) + '.csv'
     df = pd.read_csv(name)
 
     X = df[testdatalist]
@@ -43,24 +44,26 @@ for i in subjectslist:
     models['Logistic Regression'] = LogisticRegression()
 
     # Support Vector Machines
-    from sklearn.svm import LinearSVC
-    models['Support Vector Machines'] = LinearSVC()
+    # from sklearn.svm import LinearSVC
+    # models['Support Vector Machines'] = LinearSVC()
 
     # Decision Trees
-    from sklearn.tree import DecisionTreeClassifier
-    models['Decision Trees'] = DecisionTreeClassifier()
+    # from sklearn.tree import DecisionTreeClassifier
+    # models['Decision Trees'] = DecisionTreeClassifier()
 
     # Random Forest
-    from sklearn.ensemble import RandomForestClassifier
-    models['Random Forest'] = RandomForestClassifier()
+    # from sklearn.ensemble import RandomForestClassifier
+    # models['Random Forest'] = RandomForestClassifier()
 
     # Naive Bayes
-    from sklearn.naive_bayes import GaussianNB
-    models['Naive Bayes'] = GaussianNB()
+    # from sklearn.naive_bayes import GaussianNB
+    # models['Naive Bayes'] = GaussianNB()
 
     # K-Nearest Neighbors
-    from sklearn.neighbors import KNeighborsClassifier
-    models['K-Nearest Neighbor'] = KNeighborsClassifier()
+    # from sklearn.neighbors import KNeighborsClassifier
+    # models['K-Nearest Neighbor'] = KNeighborsClassifier()
+
+    models['XGBoost'] = xgb.XGBClassifier()
 
     from sklearn.metrics import accuracy_score, precision_score, recall_score
 
@@ -89,4 +92,4 @@ for i in subjectslist:
     df_model['Recall'] = recall.values()
     df_model['AUC'] = auc_scores.values()
 
-    df_model.to_csv('classification4.4_' + str(i).zfill(3) + '.csv', encoding='utf-8', index=False)
+    df_model.to_csv('classification4.6_' + str(i).zfill(3) + '.csv', encoding='utf-8', index=False)
